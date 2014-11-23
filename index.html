@@ -1,319 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-		<meta charset="utf-8">
-		<title>Section scroller template</title>
-		<meta name="generator" content="Bootply" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-		<!--[if lt IE 9]>
-			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-		<link href="css/styles.css" rel="stylesheet">
-	</head>
-	<body>
-<nav class="navbar navbar-trans navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapsible">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Brand</a>
-    </div>
-    <div class="navbar-collapse collapse" id="navbar-collapsible">
-      <ul class="nav navbar-nav navbar-left">
-        <li><a href="#section1">What</a></li>
-        <li><a href="#section2">When</a></li>
-        <li><a href="#section3">How</a></li>
-        <li><a href="#section4">Four</a></li>
-        <li><a href="#section5">Five</a></li>
-        <li><a href="#section6">Why</a></li>
-        <li><a href="#section7">Who</a></li>
-        <li>&nbsp;</li>
-      </ul>
-      <form class="navbar-form">
-        <div class="form-group" style="display:inline;">
-          <div class="input-group"> 
-            <div class="input-group-btn">
-              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-chevron-down"></span></button>
-              <ul class="dropdown-menu">
-                <li><a href="#">Category 1</a></li>
-                <li><a href="#">Category 2</a></li>
-                <li><a href="#">Category 3</a></li>
-                <li><a href="#">Category 4</a></li>
-                <li><a href="#">Category 5</a></li> 
-              </ul>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Grayscale - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-play-circle"></i>  <span class="light">Start</span> Bootstrap
+                </a>
             </div>
-            <input type="text" class="form-control" placeholder="What are searching for?">
-            <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span> </span>
-          </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#download">Download</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-      </form>
-    </div>
-  </div>
-</nav>
+        <!-- /.container -->
+    </nav>
 
-<section class="container-fluid" id="section1">
-  	<h1 class="text-center v-center">Sectionalize.</h1>
- 	
-  	<div class="container">
-      <div class="row">
-          <div class="col-sm-4">
-            <div class="row">
-              <div class="col-sm-10 col-sm-offset-2 text-center"><h3>Robust</h3><p>There is other content and snippets of details or features that can be placed here..</p><i class="fa fa-cog fa-5x"></i></div>
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">Grayscale</h1>
+                        <p class="intro-text">A free, responsive, one page Bootstrap theme.<br>Created by Start Bootstrap.</p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-sm-4 text-center">
-            <div class="row">
-              <div class="col-sm-10 col-sm-offset-1 text-center"><h3>Simple</h3><p>You may also want to create content that compells users to scroll down more..</p><i class="fa fa-user fa-5x"></i></div>
-            </div>
-          </div>
-          <div class="col-sm-4 text-center">
-            <div class="row">
-              <div class="col-sm-10 text-center"><h3>Clean</h3><p>In the first 30 seconds of a user's visit to your site they decide if they're going to stay..</p><i class="fa fa-mobile fa-5x"></i></div>
-            </div>
-          </div>
-      </div><!--/row-->
-    <div class="row"><br></div>
-  </div><!--/container-->
-</section>
+        </div>
+    </header>
 
-<section class="container-fluid" id="section2">
-  <div class="row">
-  	<div class="col-sm-8 col-sm-offset-2 text-center">
-        <h1>What is Bootstrap?</h1>
-        <br>
-		<p class="lead">Bootstrap is a free collection of tools for creating websites and web applications. It contains HTML and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions. It is the No.1 project on GitHub with 65,000+ stars and 23,800 forks (as of March 2014) [1] and has been used by NASA and MSNBC, among many others..</p>
-        <br> 
-      	<i style="font-size:120px" class="fa fa-camera fa-5x"></i>
-      	<p>Big 'ol Camera Icon</p>
-    </div>
-  </div>
-</section>
-
-<section class="container-fluid" id="section3">
-	<h1 class="text-center">Bootstrap is Responsive</h1>
-    <div class="row">
-      <div class="col-sm-6 col-sm-offset-3">
-        <h3 class="text-center">Vertical scrolling has become a popular and lasting trend in Web design.</h3>
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
         <div class="row">
-          <div class="col-xs-4 col-xs-offset-1">Some brand-tacular designs even have home page content that is taller that 12,000 pixels. That's a lotta content.</div>
-          <div class="col-xs-2"></div>
-          <div class="col-xs-4 text-right">Anyhoo, this is just some random blurb of text, and Bootply.com is a playground and code editor for Bootstrap.</div>
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>About Grayscale</h2>
+                <p>Grayscale is a free Bootstrap 3 theme created by Start Bootstrap. It can be yours right now, simply download the template on <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
+                <p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
+                <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
+            </div>
         </div>
-        <p class="text-center">
-          <img src="/assets/example/img_mtnpeople.png" class="img-responsive center-block ">
-        </p>
-      </div>
-   </div>
-</section>
+    </section>
 
-<section class="container-fluid" id="section4">
-	<h2 class="text-center">Change this Content. Change the world.</h2>
-    <div class="row">
-      <div class="col-sm-8 col-sm-offset-2">
-      <img src="/assets/example/bg_smartphones.jpg" class="img-responsive center-block ">
-      <p class="text-center">Images will scale down proportionately as browser width narrows.</p>
-      </div>
-    </div>
-</section>
-
-<section class="container-fluid" id="section5">
-  <div class="col-sm-10 col-sm-offset-1">
-    <div class="container">
-    <div class="row">
-      <div class="col-sm-4 col-xs-12">
-            <div class="list-group">
-              <a href="#" class="list-group-item active">
-                <h2 class="list-group-item-heading">Basic</h2>
-                <h6>Free to get started</h6>
-              </a>
-              <a href="#" class="list-group-item">
-                <p class="list-group-item-text">Option 100 - more about this</p>
-              </a>
-              <a href="#" class="list-group-item">
-                <p class="list-group-item-text">Option 2 - this is more about this</p>
-              </a>
-              <a href="#" class="list-group-item">
-                <p class="list-group-item-text">Option 3 GB</p>
-              </a>
-              <a href="#" class="list-group-item">
-                <p class="list-group-item-text">Option 4</p>
-              </a>
-              <a href="#" class="list-group-item">
-                <p class="list-group-item-text">Feature</p>
-              </a>
-              <a href="#" class="list-group-item">
-                <p class="list-group-item-text">Feature</p>
-              </a>
-              <a href="#" class="list-group-item">
-                <button class="btn btn-primary btn-lg btn-block">Get Started</button>
-              </a>
+    <!-- Download Section -->
+    <section id="download" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Download Grayscale</h2>
+                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
+                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
+                </div>
             </div>
-      </div><!--/left-->
-      
-      <div class="col-sm-4 col-xs-12">
-            <div class="list-group text-center">
-              <a href="#" class="list-group-item active">
-                <h2 class="list-group-item-heading">Better</h2>
-                <h6>Most popular plan</h6>
-              </a>
-              <a href="#" class="list-group-item">
-                <p class="list-group-item-text">Option 200 - more about this</p>
-              </a>
-              <a href="#" class="list-group-item">
-                <p class="list-group-item-text">Option 2 - this is more about this</p>
-              </a>
-              <a href="#" class="list-group-item">
-                <p class="list-group-item-text">Option 5 GB</p>
-              </a>
-              <a href="#" class="list-group-item">
-                <p class="list-group-item-text">Option 6</p>
-              </a>
-              <a href="#" class="list-group-item">
-                <p class="list-group-item-text">Feature</p>
-              </a>
-              <a href="#" class="list-group-item">
-                <p class="list-group-item-text">Feature</p>
-              </a>
-              <a href="#" class="list-group-item">
-                <button class="btn btn-default btn-lg btn-block">$10 per month</button>
-              </a>
-            </div>
-      </div><!--/middle-->
-      
-      <div class="col-sm-4 col-xs-12">
-            <div class="list-group text-right">
-              <a href="#" class="list-group-item active">
-                <h2 class="list-group-item-heading">Best</h2>
-                <h6>For enterprise grade</h6>
-              </a>
-              <a href="#" class="list-group-item">
-                <p class="list-group-item-text">Option 100 - more about this</p>
-              </a>
-              <a href="#" class="list-group-item">
-                <p class="list-group-item-text">Option 2 - this is more about this</p>
-              </a>
-              <a href="#" class="list-group-item">
-                <p class="list-group-item-text">Option 8 GB</p>
-              </a>
-              <a href="#" class="list-group-item">
-                <p class="list-group-item-text">Option 10</p>
-              </a>
-              <a href="#" class="list-group-item">
-                <p class="list-group-item-text">Unlimited</p>
-              </a>
-              <a href="#" class="list-group-item">
-                <p class="list-group-item-text">Unlimited</p>
-              </a>
-              <a href="#" class="list-group-item">
-                <button class="btn btn-default btn-lg btn-block">$20 per month</button>
-              </a>
-            </div>
-      </div><!--/right-->
-      
-    </div><!--/row-->
-    </div><!--/container--> 
-  </div>
-</section>
-
-<section class="container-fluid" id="section6">
-	<h2 class="text-center">Do you see what I mean?</h2>
-    <p class="text-center lead">Add some compelling information here</p>
-    <img src="/assets/example/bg_iphone.png" class="img-responsive center-block ">
-    
-</section>
-
-<section class="container" id="section7">
-	<h1 class="text-center">Social Media Fascination</h1>
-    <div class="row">
-      <!--fontawesome icons-->
-      <div class="col-sm-1 col-sm-offset-2 col-xs-4 text-center">
-       <i class="fa fa-github fa-4x"></i>
-      </div>
-      <div class="col-sm-1 col-xs-4 text-center">
-       <i class="fa fa-foursquare fa-4x"></i>
-      </div>
-      <div class="col-sm-1 col-xs-4 text-center">
-       	<i class="fa fa-facebook fa-4x"></i>
-      </div>
-      <div class="col-sm-1 col-xs-4 text-center">
-       <i class="fa fa-pinterest fa-4x"></i>
-      </div>
-      <div class="col-sm-1 col-xs-4 text-center">
-       <i class="fa fa-google-plus fa-4x"></i>
-      </div>
-      <div class="col-sm-1 col-xs-4 text-center">
-       <i class="fa fa-twitter fa-4x"></i>
-      </div>
-      <div class="col-sm-1 col-xs-4 text-center">
-       <i class="fa fa-dribbble fa-4x"></i>
-      </div>
-      <div class="col-sm-1 col-xs-4 text-center">
-       <i class="fa fa-instagram fa-4x"></i>
-      </div>
-  </div><!--/row-->
-  <div class="row">
-  	<div class="col-md-12 text-center">
-      <br><br>
-      <p>
-    	<a href="http://www.bootstrapzero.com/bootstrap-template/sectionalize">Get the code for this template.</a>
-      </p>
-    </div>
-  </div>
-</section>
-
-<footer id="footer">
-  <div class="container">
-    <div class="row">    
-      <div class="col-xs-6 col-sm-6 col-md-3 column">          
-          <h4>Information</h4>
-          <ul class="nav">
-            <li><a href="about-us.html">Products</a></li>
-            <li><a href="about-us.html">Services</a></li>
-            <li><a href="about-us.html">Benefits</a></li>
-            <li><a href="elements.html">Developers</a></li>
-          </ul> 
         </div>
-      <div class="col-xs-6 col-md-3 column">          
-          <h4>Follow Us</h4>
-          <ul class="nav">
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Google+</a></li>
-            <li><a href="#">Pinterest</a></li>
-          </ul> 
-      </div>
-      <div class="col-xs-6 col-md-3 column">          
-          <h4>Contact Us</h4>
-          <ul class="nav">
-            <li><a href="#">Email</a></li>
-            <li><a href="#">Headquarters</a></li>
-            <li><a href="#">Management</a></li>
-            <li><a href="#">Support</a></li>
-          </ul> 
-      </div>
-      <div class="col-xs-6 col-md-3 column">          
-          <h4>Customer Service</h4>
-          <ul class="nav">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Delivery Information</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms &amp; Conditions</a></li>
-          </ul> 
-      </div>
-    </div><!--/row-->
-  </div>
-</footer>
+    </section>
 
-	<!-- script references -->
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/scripts.js"></script>
-	</body>
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contact Start Bootstrap</h2>
+                <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
+                <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <div id="map"></div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; Your Website 2014</p>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+
+</body>
+
 </html>
